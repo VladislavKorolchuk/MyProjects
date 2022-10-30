@@ -1,6 +1,6 @@
 package SkyPro.TheTwoCourse.OOPLesson3;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
 
         Car carLadaGranta = new Car("Lada", "", 1999, "Россия", "белый", 150, 1.5, "МКПП", "седан", "B045AA198", 5, true);

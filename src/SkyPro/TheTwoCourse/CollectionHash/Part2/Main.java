@@ -1,7 +1,5 @@
 package SkyPro.TheTwoCourse.CollectionHash.Part2;
 
-import SkyPro.TheTwoCourse.CollectionHash.Part1.Recipes;
-
 import java.util.*;
 
 class Main {

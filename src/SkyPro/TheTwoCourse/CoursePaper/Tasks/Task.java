@@ -8,13 +8,13 @@ public class Task {
     final String heading;              // Заголовок
     final String task;                 // Задача
     final String description;          // Описание задачи
-    final LocalDateTime dateTime;      // Дата и время задачи
+    //final LocalDateTime dateTime;      // Дата и время задачи
 
     public Task(String heading, String task, String description) {
         this.id = idGenerator++;
         this.heading = heading;
         this.task = task;
         this.description = description;
-        this.dateTime = dateTime;
+    //    this.dateTime = dateTime;
     }
 }

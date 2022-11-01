@@ -63,9 +63,9 @@ public class Main {
         // --------------------------------------- Задание 3 -----------------------------------------------------------
 
         hashMap("str1", 4);
-        hashMap("str2", 4);
-        hashMap("str2", 4);
-        hashMap("str2", 7);
+       // hashMap("str2", 4);
+       // hashMap("str2", 4);
+       // hashMap("str2", 7);
 
     }
 

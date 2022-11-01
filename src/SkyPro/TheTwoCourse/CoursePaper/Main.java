@@ -34,8 +34,33 @@ public class Main {
     }
 
     private static void inputTask(Scanner scanner) {
+
+        // Заголовок, описание, тип и признак повторяемости обязательны к заполнению.
+
+        System.out.print("Введите заголовок задачи: ");
+        String headingName = scanner.next();
         System.out.print("Введите название задачи: ");
         String taskName = scanner.next();
+        System.out.print("Введите описание задачи: ");
+        String descriptionName = scanner.next();
+
+        int repeatability=0;
+        do {
+            System.out.print("Введите повторяемость задачи: 1/однократная,2/ежедневная,3/еженедельная,4/ежемесячная,5/ежегодная ");
+            repeatability = scanner.nextInt();
+        } while (!(repeatability>1 && repeatability<6));
+        switch (repeatability){
+            case 1:
+
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+        }
+
+
+
+
         // todo
     }
 
